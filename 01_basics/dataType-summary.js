@@ -6,10 +6,10 @@ const scoreValue=100.3
 const  isloggedIn=false
 const outsideTemp=null
 let userEmail;
-const id=symbol('123')
-const anotherId=symbol('123')
+// const id=symbol('123')
+// const anotherId=symbol('123')
  
-console.log(id===anotherId);
+// console.log(id===anotherId);
 const bignumber =  7867235746781n
 
 
@@ -23,6 +23,5 @@ let myobj ={
 const myFunction = function(){
     console.log("hello world")
 }
-
-
+  // stack(primitive)   and  // heap(nonrprimitive) 
 
