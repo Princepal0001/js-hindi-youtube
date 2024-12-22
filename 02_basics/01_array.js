@@ -36,7 +36,9 @@ console.log(newarray);
 console.log(typeof newarray);
 
 /*******************   slice , splice ********************** */ 
-
+ 
+//slice doesnt remove the array from main array ans(include,exclude)
+//splice does remove the array from main array ans(include,include)
 
 console.log("A  ",newArray); 
 
