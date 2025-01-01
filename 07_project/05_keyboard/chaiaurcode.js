@@ -9,7 +9,7 @@ window.addEventListener('keydown',(e)=>{
     <th>code</th>
   </tr>
   <tr>
-    <td>${e.key}</td>
+    <td>${e.key===' '?"space" : e.key}</td>
     <td>${e.keycode}</td>
     <td>${e.code}</td>
   </tr>
