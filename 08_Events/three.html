@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Chai aur Javascript </h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    
+let intervalid
+     // start
+const startinterval = function(){
+   intervalid = setInterval(startINT,1000);
+    
+   function startINT(){
+        console.log("prince pal",Date.now());
+    }
+
+    } 
+     document.querySelector('#start').addEventListener('click',startinterval);
+
+     // stop
+const stopinterval = function(){
+    clearInterval(intervalid);
+    intervalid=null
+}
+
+     document.querySelector('#stop').addEventListener('click',stopinterval);
+    
+</script>
+</html>
